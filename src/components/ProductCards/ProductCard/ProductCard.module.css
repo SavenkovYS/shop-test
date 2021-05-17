@@ -1,0 +1,126 @@
+.ProductCard {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+
+    box-shadow: 0px 5px 47.5px 2.5px rgba(221, 223, 224, 0.75);
+}
+
+.ImgContainer {
+    display: flex;
+    align-items: flex-end;
+    height: 270px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Img {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.ContentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Name {
+    display: block;
+
+    margin-bottom: 15px;
+
+    color: #777777;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Price {
+    margin: 0;
+    
+    font-size: 25px;
+    color: #333333;
+    font-weight: 600; 
+}
+
+.Button {
+    position: absolute;
+    top: 20px;
+
+    width: min-content;
+
+    color: #bbbbbb;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.Likes {
+    left: 50px;
+}
+
+.Comments {
+    right: 25px;
+}
+
+.Likes::before,
+.Comments::before {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Likes::before {
+    top: 4px;
+    left: -27px;
+
+    width: 19px;
+    height: 17px;
+
+    background-image: url("/src/assets/img/icon-like.png");
+}
+
+.Comments::before {
+    top: 5px;
+    left: -30px;
+
+    width: 24px;
+    height: 20px;
+
+    background-image: url("/src/assets/img/icon-comment.png");
+}
+
+.Add {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    z-index: 10;
+
+    display: inline-block;
+    padding: 17px 45px;
+
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+
+    border-radius: 40px;
+    background-image: linear-gradient( 64deg, rgb(140,132,249) 0%, rgb(161,101,244) 100%);
+    background-image: -moz-linear-gradient( 64deg, rgb(140,132,249) 0%, rgb(161,101,244) 100%);
+    background-image: -webkit-linear-gradient( 64deg, rgb(140,132,249) 0%, rgb(161,101,244) 100%);
+    background-image: -ms-linear-gradient( 64deg, rgb(140,132,249) 0%, rgb(161,101,244) 100%);
+    box-shadow: 0px 5px 23.75px 1.25px rgba(240, 239, 254, 0.75);
+}

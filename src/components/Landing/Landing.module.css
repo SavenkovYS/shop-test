@@ -1,0 +1,79 @@
+.Landing {
+    padding: 160px 215px 110px;
+
+    color: #fff;
+
+    background: #8d83f9;
+    background: linear-gradient( 45deg, rgb(140,132,249) 0%, rgb(161,101,244) 100%);
+}
+
+.Title {
+    margin: 0;
+    margin-bottom: 80px;
+
+    font-size: 50px;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+}
+
+.Container {
+    display: flex;
+    padding: 5px;
+
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.EmailInput {
+    flex-grow: 1;
+    padding: 10px 20px;
+
+    font-size: 20px;
+    color: #333333;
+
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+
+.EmailInput::-webkit-input-placeholder {
+    color: #333333;
+    font-weight: 400;
+}
+
+.EmailInput:-moz-placeholder { 
+    color: #333333;
+    font-weight: 400;
+}
+
+.EmailInput::-moz-placeholder {  
+    color: #333333;
+    font-weight: 400;
+}
+
+.EmailInput:-ms-input-placeholder {  
+    color: #333333;
+    font-weight: 400;
+}
+
+.EmailInput:focus {
+    box-shadow: 0 0 0 2px #8d83f9;
+}
+
+.Submit {
+    width: 200px;
+    padding: 20px 15px;
+    margin-left: 10px;
+
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+
+    background: #8d83f9;
+    background: linear-gradient( 62deg, rgb(140,132,249) 0%, rgb(156,108,245) 100%);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}

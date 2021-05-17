@@ -1,0 +1,70 @@
+.List {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.Item + .Item {
+    margin-left: 30px;
+}
+
+.Link {
+    position: relative;
+    display: block;
+    
+    width: 53px;
+    height: 53px;
+
+    border: 1px solid #ecebed;
+    border-radius: 50%;
+}
+    
+.Link svg {
+    position: absolute;
+}
+
+.Link svg path {
+    fill: #555555;
+}
+
+.Item.Facebook svg {
+    top: 17px;
+    left: 22px;
+
+    width: 13px;
+    height: 24px;
+}
+
+.Item.Google svg {
+    top: 14px;
+    left: 16px;
+
+    width: 31px;
+    height: 20px;
+}
+
+.Item.Instagram svg {
+    top: 14px;
+    left: 14px;
+
+    width: 25px;
+    height: 25px;
+}
+
+.Item.Twitter svg {
+    top: 14px;
+    left: 16px;
+
+    width: 23px;
+}
+
+.Link:hover {
+    background-image: linear-gradient( 63deg, rgb(140,132,249) 0%, rgb(155,109,245) 99%);
+}
+
+.Link:hover svg path {
+    fill: #fff;
+}

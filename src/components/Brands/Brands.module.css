@@ -1,0 +1,40 @@
+.Brands {
+    padding: 250px 215px;
+    background-image: url('/src/assets/img/brands-bg.png');
+    background-position: bottom 20px right 365px;
+    background-repeat: no-repeat;
+}
+
+.Container {
+    width: 40%;
+}
+
+.Title {
+    margin: 0;
+    margin-bottom: 25px;
+
+    font-size: 50px;
+    color: #333333;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.Subtitle {
+    margin: 0;
+    margin-bottom: 25px;
+
+    font-size: 25px;
+    color: #333333;
+    line-height: 34px;
+}
+
+.Link {
+    color: #8d83f9;
+    text-decoration: none;
+}
+
+.Text {
+    font-size: 16px;
+    color: #888888;
+    line-height: 26px;
+}

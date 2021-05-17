@@ -1,13 +1,64 @@
 body {
+  min-width: 1600px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #151515;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+font-family: "Open Sans", "PT Sans", sans-serif;
+color: #151515;
+font-weight: 600;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder { 
+font-family: "Open Sans", "PT Sans", sans-serif;
+color: #151515;
+font-weight: 600;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {  
+font-family: "Open Sans", "PT Sans", sans-serif;
+color: #151515;
+font-weight: 600;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {  
+font-family: "Open Sans", "PT Sans", sans-serif;
+color: #151515;
+font-weight: 600;
 }

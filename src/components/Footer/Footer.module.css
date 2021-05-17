@@ -1,0 +1,67 @@
+.Footer {
+    padding-top: 70px;
+}
+
+.Container {
+    min-width: 555px;
+    max-width: 800px;
+    padding: 0 215px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo {
+    margin: 0;
+    margin-bottom: 40px;
+
+    font-family: "Roboto", "PT Sans", sans-serif;
+    font-size: 40px;
+    color: #222222;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.List {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 45px;
+
+    list-style: none;
+}
+
+.List li + li {
+    margin-left: 10px;
+}
+
+.Link {
+    color: #404040;
+    line-height: 26px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Social {
+    margin-bottom: 50px;
+}
+
+.CopyrightContainer {
+    width: 100%;
+    padding: 20px 215px;
+    background-color: #f6f5f7;
+} 
+
+.CopyrightText {
+    display: block;
+    text-align: center;
+
+    font-family: "Montferrat", "PT Sans", sans-serif;
+    color: #777777;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;  
+}

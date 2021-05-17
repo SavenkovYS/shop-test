@@ -1,0 +1,111 @@
+.Intro {
+    min-height: 1050px;
+    padding: 340px 215px 50px;
+
+    background: #8d83f9;
+    background: url('/src/assets/img/bg.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Container {
+    width: 530px;
+    margin-left: auto;
+}
+
+.Subtitle {
+    margin: 0;
+    margin-bottom: 35px;
+    
+    font-family: #777777;
+    font-size: 115px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.Subtitle span {
+    display: block;
+        
+    color: #fff;
+}
+
+.Text {
+    margin: 0;
+    margin-bottom: 90px;
+
+    font-size: 50px;
+    line-height: 1;
+    font-family: "Roboto", "PT Sans", sans-serif;
+    font-weight: 700;
+    color: #fbf934;
+}
+
+.Text span {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.Link {
+    display: inline-block;
+
+    padding: 15px 85px 15px 50px;
+
+    text-decoration: none;
+
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 5px 23.75px 1.25px rgba(189, 227, 239, 0.75);
+}
+
+.Link span {
+    position: relative;
+        
+    font-size: 20px;
+    color: #151515;
+    font-weight: 600;
+}
+
+.Link span::before,
+.Link span::after {
+    content: '';
+    
+    position: absolute;
+    transition: right 0.2s ease-in-out,
+                width 0.2s ease-in-out;
+        
+}
+
+.Link span::before {
+    top: 9px;
+    right: -25px;
+    transform: translateY(50%);
+
+    width: 13px;
+    height: 3px;
+
+    background-color: #8d83f9;
+}
+
+.Link span::after {
+    top: 12px;
+    right: -35px;
+    transform: translateY(-50%);
+
+    width: 0;
+    height: 9px;
+
+    border: 5px solid #8d83f9;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.Link:hover span::before {
+    width: 20px;
+    right: -32px;
+}
+
+.Link:hover span::after {
+    right: -42px;
+}
